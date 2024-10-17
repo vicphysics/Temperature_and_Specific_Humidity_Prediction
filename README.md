@@ -132,7 +132,7 @@ This latter option was used with a file created and placed in directory:
 # HADISDH (Humidity data):
 
 The Met Office humidity data (HADISDH) datasets are stored in NetCDF or Network Common Data Form (.NC) geospatial file format. 
-To access and visualize this data in Python, the required libraries are discussed with application python code at:
+To access and visualize this data in Python, the required libraries are discussed with applicable python code at:
 
 https://medium.com/analytics-vidhya/how-to-read-and-visualize-netcdf-nc-geospatial-files-using-python-6c2ac8907c7c
 
