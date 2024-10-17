@@ -140,5 +140,5 @@ https://medium.com/analytics-vidhya/how-to-read-and-visualize-netcdf-nc-geospati
 
 
 
-# Ocean Oscillations Nin^~o Index (ONI):
+# Ocean Oscillations Niño Index (ONI):
 
