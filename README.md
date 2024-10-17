@@ -1,8 +1,8 @@
 Data will be gathered from several sources. Here is a list of these sources:
 
-NSRDB
-HADISDH (Humidity data)
-NCEI/NOAA
+NSRDB 
+HADISDH (Humidity data) 
+NCEI/NOAA 
 OSI
 
 NSRDB:
