@@ -39,101 +39,93 @@ Create the virtual environment:
 
 Activate the virtual environment:
 
-   .\myenv\Scripts\activate
+    .\myenv\Scripts\activate
 
 Downgrade to Python 3.10 to use h5pyd:
-
-   conda install python==3.10
+    
+    conda install python==3.10
 
 Check version:
-
-   python --version
+    
+    python --version
 
 Install h5pyd:
-
-   pip install --user h5pyd
+    
+    pip install --user h5pyd
 
 Install hsds:
-
-   pip install hsds
+    
+    pip install hsds
 
 Then configure HSDS using HSDS app command:
-
-   hsconfigure
-   
+    
+    hsconfigure   
 
 At the prompt, enter:
-
-   hs_endpoint = https://developer.nrel.gov/api/hsds
+    
+    hs_endpoint = https://developer.nrel.gov/api/hsds
+    hs_username = None
+    hs_password = None
+    hs_api_key = phTY324bPYr6d6ECVsZhFMlmjw1fZDCG6q0Q48IF
    
-   hs_username = None
-   
-   hs_password = None
-   
-   hs_api_key = phTY324bPYr6d6ECVsZhFMlmjw1fZDCG6q0Q48IF
-   
-
 This API key was created specifically for V.Sciortino5865@o365.ncu.edu for use in this research.
 
 To get your own API key, visit https://developer.nrel.gov/signup/
 
 To generate a requirements.txt file to list all dependencies, use:
-
-   pip freeze > requirements.txt
+    
+    pip freeze > requirements.txt
 
 Make the following adjustments to requirements.txt:
-
-   aiobotocore==2.5.0
-   
-   cryptography==41
-   
-   ipython==7.6.0
-
-   jedi==0.17.2
-   
-   numpy==1.26.4
-   
-   urllib3==2.2.2
+    
+    aiobotocore==2.5.0
+    cryptography==41
+    ipython==7.6.0
+    jedi==0.17.2
+    numpy==1.26.4
+    urllib3==2.2.2
 
 Install needed package:
-
-   pip install tensorflow-io-gcs-filesystem
+    
+    pip install tensorflow-io-gcs-filesystem
 
 You can also add the above contents to a configuration file at ~/.hscfg or have hsconfigure create this file for you.
 
 This latter option was used with a file created and placed in directory:
+    
+    C:/Users/User/        
+    
+(This path is the working directory for Anaconda and holds all Jupyter notebooks)
 
-   C:/Users/User/        (This path is the working directory for Anaconda and holds all Jupyter notebooks)
-
-The following code in Jupyter Notebook creates the virtual environment and incorporates all dependencies:
+# The following code in Jupyter Notebook creates the virtual environment and incorporates all dependencies:
 
 #Create the virtual environment
-
-!python -m venv myenv
+    
+    !python -m venv myenv
 
 #Activate the virtual environment
-
-!.\myenv\Scripts\activate
+    
+    !.\myenv\Scripts\activate
 
 #Downgrade to Python 3.10 to use h5pyd
-
-!conda install python==3.8
+    
+    !conda install python==3.8
 
 #Check version
+    
+    !python --version
 
-!python --version
-
-# Update dependencies
-
-!pip install -r requirements.txt
+#Update dependencies
+    
+    !pip install -r requirements.txt
 
 #Install missing package dependency
-
-!pip install tensorflow-io-gcs-filesystem
-
-!pip install --user h5pyd
+    
+    !pip install tensorflow-io-gcs-filesystem
+    
+    !pip install --user h5pyd
 
 #Install hsds using:
-
-!pip install hsds
+    
+    !pip install hsds
 
