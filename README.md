@@ -136,4 +136,9 @@ To access and visualize this data in Python, the required libraries are discusse
 
 https://medium.com/analytics-vidhya/how-to-read-and-visualize-netcdf-nc-geospatial-files-using-python-6c2ac8907c7c
 
+# NCEI/NOAA (National Oceanic and Atmospheric Administration):
+
+
+
+# Ocean Oscillations Nino Index (ONI):
 
