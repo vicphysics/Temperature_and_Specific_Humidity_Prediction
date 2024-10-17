@@ -8,7 +8,7 @@ NCEI/NOAA
 
 OSI
 
-NSRDB:
+# NSRDB:
 
 National Renewable Energy Laboratory (NREL): National Solar Radiation Database (NSRDB)
 The NSRDB is provided in annual .h5 files and currently spans 1998-2018 with data files stored in Hierarchical Data Format Version 5 (HDF5).
@@ -129,3 +129,6 @@ This latter option was used with a file created and placed in directory:
     
     !pip install hsds
 
+# HADISDH (Humidity data):
+
+The Met Office humidity data (HADISDH) datasets are stored in NetCDF or Network Common Data Form (.NC) geospatial file format.  
