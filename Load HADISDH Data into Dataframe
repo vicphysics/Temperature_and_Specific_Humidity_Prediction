@@ -1,0 +1,47 @@
+import os
+import xarray as xr
+import pandas as pd
+import netCDF4 as nc
+from scipy import stats
+
+# Get the current working directory 
+current_directory = os.getcwd() 
+
+# Print the current working directory 
+print(current_directory)
+
+# Define the directory containing the files 
+path = current_directory+"\\Data\\HADISDH_Humidity\\NC_Files\\"
+print(path)
+
+# Create an empty list to hold the dataframes 
+dataframes = [] 
+
+# Create datetime object for comparison
+datetime_str = '1/1/06 00:00:00'
+
+# Convert string to datetime
+datetime_object = datetime.strptime(datetime_str, '%d/%m/%y %H:%M:%S')
+
+# Loop through all filenames in filenames_only.csv 
+with open("filenames_only.csv", mode='r') as file: 
+   csv_reader = csv.reader(file)
+   for row in csv_reader:
+      filename = row 
+      # Open the NetCDF file
+      file = path+filename
+      ds = xr.open_dataset(file)
+      # Convert the dataset to a DataFrame
+      df = ds.to_dataframe().reset_index()
+      df_filtered = df[df['time'] >= datetime_object] # Remove data older than January 1, 2006
+      df_filtered.set_index('time', inplace = True)
+      dataframes.append(df_filtered)
+
+# Concatenate all Dataframes
+combined_df = pd.concat(dataframes, ignore_index=False)
+
+# Now combined_df contains all the data from NC files
+print(combined_df)
+
+# Display the dataframe
+print(combined_df.head())
