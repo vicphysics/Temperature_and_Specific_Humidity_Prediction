@@ -94,6 +94,42 @@ To access and visualize this data in Python, the required libraries are discusse
 
 https://medium.com/analytics-vidhya/how-to-read-and-visualize-netcdf-nc-geospatial-files-using-python-6c2ac8907c7c
 
+Download the following files from HADISDH website:
+
+| HADISDH Source File Names |
+| :-: |
+WMO_000000-029999_humidity.tar
+WMO_030000-049999_humidity.tar
+WMO_050000-079999_humidity.tar
+WMO_080000-099999_humidity.tar
+WMO_100000-149999_humidity.tar
+WMO_150000-199999_humidity.tar
+WMO_200000-249999_humidity.tar
+WMO_250000-299999_humidity.tar
+WMO_300000-349999_humidity.tar
+WMO_350000-399999_humidity.tar
+WMO_400000-449999_humidity.tar
+WMO_450000-499999_humidity.tar
+WMO_500000-549999_humidity.tar
+WMO_550000-599999_humidity.tar
+WMO_600000-649999_humidity.tar
+WMO_650000-699999_humidity.tar
+WMO_700000-709999_humidity.tar
+WMO_710000-714999_humidity.tar
+WMO_715000-719999_humidity.tar
+WMO_720000-721999_humidity.tar
+WMO_722000-722999_humidity.tar
+WMO_723000-723999_humidity.tar
+WMO_724000-724999_humidity.tar
+WMO_725000-725999_humidity.tar
+WMO_726000-726999_humidity.tar
+WMO_727000-729999_humidity.tar
+WMO_730000-799999_humidity.tar
+WMO_800000-849999_humidity.tar
+WMO_850000-899999_humidity.tar
+WMO_900000-949999_humidity.tar
+WMO_950000-999999_humidity.tar
+
 
 HADISDH Files chosen to be used in study:
 
