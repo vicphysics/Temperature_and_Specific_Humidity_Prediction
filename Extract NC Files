@@ -1,0 +1,49 @@
+import tarfile 
+import os 
+import gzip
+import io
+
+def uncompress_gz(file_path, output_path):
+    with gzip.open(file_path, 'rb') as f_in:
+        with io.open(output_path, 'wb') as f_out:
+            f_out.write(f_in.read())
+
+# Get the current working directory 
+current_directory = os.getcwd() 
+
+# Print the current working directory 
+print(current_directory)
+
+# Define the directory containing the files 
+directory = current_directory+"\\Data\\HADISDH_Humidity\\"
+print(directory)
+
+# Create an empty list to hold the Filenames 
+file_names = [] 
+
+#Extract all files to same directory
+extract_to_path = directory+"NC_Files"
+
+# Loop through all files in the directory 
+for filename in os.listdir(directory): 
+   if filename.endswith('.tar.gz'): # Check if the file is a tar.gz file 
+      file_names.append(filename)
+      tar_file_path = os.path.join(directory, filename)         
+      # Open the tar file        
+      with tarfile.open(tar_file_path, 'r:gz') as tar: 
+         # Extract all files to the specified directory 
+         tar.extractall(path=extract_to_path) 
+
+# Loop through all files in the directory 
+for filename in os.listdir(extract_to_path): 
+   if filename.endswith('.nc.gz'): # Check if the file is a .nc.gz file 
+      filename = extract_to_path+"\\"+filename
+      size = len(filename) - 3
+      filename2 = filename[:size]
+      # Uncompress/Unzip .gz files 
+      uncompress_gz(filename, filename2)
+
+# Print the contents of the extraction directory 
+extracted_files = os.listdir(extract_to_path) 
+print(file_names)
+print(extracted_files)
