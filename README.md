@@ -6,30 +6,11 @@ HADISDH (Humidity data)
 
 NCEI/NOAA 
 
+WDC-SILSO
+
 ONI
 
-# NSRDB:
-
-National Renewable Energy Laboratory (NREL): National Solar Radiation Database (NSRDB)
-The NSRDB is provided in annual .h5 files and currently spans 1998-2018 with data files stored in Hierarchical Data Format Version 5 (HDF5).
-Each year can be accessed from /nrel/nsrdb/nsrdb_${year}.h5
-The data is provided from Amazon Web Services (AWS) using the HDF Group's Highly Scalable Data Service (HSDS).
-
-NSRDB archived data sets for 1961-1990 for 237 locations and from 1991-2005 for 1,454 locations in the United States and its territories are also available in CSV format from
-
-https://nsrdb.nrel.gov/data-sets/archives
-
-Instructions for setting up h5pyd can be found at:
-
-https://github.com/NREL/hsds-examples/blob/master/notebooks/03_NSRDB_introduction.ipynb
-
-Information on installing HSDS can be found here:
-
-https://github.com/HDFGroup/hsds
-
-h5pyd package only works for Python 3.8-3.10. Users running Python 3.11 or later have reported problems. 
-
-Refer to https://forum.hdfgroup.org/t/error-using-hsds-to-download-nsrdb-data/11840/
+# HADISDH (Humidity data):
 
 Powershell Code Instructions for Setting Up Virtual Environment (myenv):
 1)	Install Anaconda Navigator 2.6.3 via download from https://www.anaconda.com/download 
@@ -85,9 +66,6 @@ https://github.com/NREL/hsds-examples/blob/master/notebooks/03_NSRDB_introductio
 Information on installing HSDS can be found here:
 https://github.com/HDFGroup/hsds
 
-
-
-# HADISDH (Humidity data):
 
 The Met Office humidity data (HADISDH) datasets are stored in NetCDF or Network Common Data Form (.NC) geospatial file format. 
 To access and visualize this data in Python, the required libraries are discussed with applicable python code at:
@@ -394,7 +372,28 @@ Note: For files where "Water within 10 km" is blank, the water/land variable wil
 
 We then use the code for putting the NC Files into a Dataframe and clean the data using the average monthly values to fill each missing/NaN value.
 
-#National Solar Radiation Database (NSRDB):
+# National Solar Radiation Database (NSRDB):
+
+National Renewable Energy Laboratory (NREL): National Solar Radiation Database (NSRDB)
+The NSRDB is provided in annual .h5 files and currently spans 1998-2018 with data files stored in Hierarchical Data Format Version 5 (HDF5).
+Each year can be accessed from /nrel/nsrdb/nsrdb_${year}.h5
+The data is provided from Amazon Web Services (AWS) using the HDF Group's Highly Scalable Data Service (HSDS).
+
+NSRDB archived data sets for 1961-1990 for 237 locations and from 1991-2005 for 1,454 locations in the United States and its territories are also available in CSV format from
+
+https://nsrdb.nrel.gov/data-sets/archives
+
+Instructions for setting up h5pyd can be found at:
+
+https://github.com/NREL/hsds-examples/blob/master/notebooks/03_NSRDB_introduction.ipynb
+
+Information on installing HSDS can be found here:
+
+https://github.com/HDFGroup/hsds
+
+h5pyd package only works for Python 3.8-3.10. Users running Python 3.11 or later have reported problems. 
+
+Refer to https://forum.hdfgroup.org/t/error-using-hsds-to-download-nsrdb-data/11840/
 
 We will use the following files to extract the solar radiation output variable (GHI) from the NSRDB:
 
