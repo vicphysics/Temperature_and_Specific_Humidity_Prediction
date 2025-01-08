@@ -97,8 +97,8 @@ https://medium.com/analytics-vidhya/how-to-read-and-visualize-netcdf-nc-geospati
 
 HADISDH Files chosen to be used in study:
 
-| Region 1: |
-|---|
+| Region 1: |    |    |    |
+|---|---|---|---|
 | File | Latitude | Longitude | Filename |
 | :-: | :-: | :-: | --- |
 | 7962 | 44.381 | -106.72 | hadisd.3.4.1.202411p_19310101-20241201_726654-94054_humidity.nc |
