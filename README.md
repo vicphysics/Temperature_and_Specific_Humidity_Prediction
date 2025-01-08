@@ -109,7 +109,9 @@ Region 1:
 | 8133 | 47.923 | -122.283 | hadisd.3.4.1.202411p_19310101-20241201_727937-24222_humidity.nc |
 
 Region 2:
-File 	Latitude	Longitude	Filename
+
+| File | Latitude | Longitude | Filename |
+| :-: | :-: | :-: | --- |
 6994	32.259	    -107.721	hadisd.3.4.1.202411p_19310101-20241201_722725-23078_humidity.nc
 7032	33.976	    -117.625	hadisd.3.4.1.202411p_19310101-20241201_722899-03179_humidity.nc
 7239	36.311	    -119.623	hadisd.3.4.1.202411p_19310101-20241201_723898-53119_humidity.nc
@@ -121,7 +123,9 @@ File 	Latitude	Longitude	Filename
 8186	33.038	    -116.916	hadisd.3.4.1.202411p_19310101-20241201_745056-53120_humidity.nc
 
 Region 3:
-File	Latitude	Longitude	Filename
+
+| File | Latitude | Longitude | Filename |
+| :-: | :-: | :-: | --- |
 7671	41.99	    -93.619	    hadisd.3.4.1.202411p_19310101-20241201_725472-94989_humidity.nc
 7704	41.763	    -96.18	    hadisd.3.4.1.202411p_19310101-20241201_725527-94978_humidity.nc
 7861	46.547	    -90.918	    hadisd.3.4.1.202411p_19310101-20241201_726419-94929_humidity.nc
@@ -134,7 +138,9 @@ File	Latitude	Longitude	Filename
 8083	46.011	    -102.652	hadisd.3.4.1.202411p_19310101-20241201_727584-94038_humidity.nc
 
 Region 4:
-File 	Latitude	Longitude	Filename
+
+| File | Latitude | Longitude | Filename |
+| :-: | :-: | :-: | --- |
 6501	33.636	    -91.756	    hadisd.3.4.1.202411p_19310101-20241201_720175-53919_humidity.nc
 6541	38.958	    -94.371	    hadisd.3.4.1.202411p_19310101-20241201_720306-53879_humidity.nc
 6668	35.14	    -90.236	    hadisd.3.4.1.202411p_19310101-20241201_722054-53959_humidity.nc
@@ -167,7 +173,9 @@ File 	Latitude	Longitude	Filename
 9858	36.118	    -97.091	    hadisd.3.4.1.202411p_19310101-20241201_999999-53926_humidity.nc
 
 Region 5:
-File 	Latitude	Longitude	Filename
+
+| File | Latitude | Longitude | Filename |
+| :-: | :-: | :-: | --- |
 6744	41.351	    -71.806	    hadisd.3.4.1.202411p_19310101-20241201_722151-14794_humidity.nc
 7287	40.876	    -74.283	    hadisd.3.4.1.202411p_19310101-20241201_724094-54743_humidity.nc
 7329	41.563	    -83.477	    hadisd.3.4.1.202411p_19310101-20241201_724287-04848_humidity.nc
@@ -193,7 +201,9 @@ File 	Latitude	Longitude	Filename
 8034	45.813	    -88.113	    hadisd.3.4.1.202411p_19310101-20241201_727437-94893_humidity.nc
 
 Region 6:
-File 	Latitude	Longitude	Filename
+
+| File | Latitude | Longitude | Filename |
+| :-: | :-: | :-: | --- |
 6640	28.474	    -82.454	    hadisd.3.4.1.202411p_19310101-20241201_722014-12818_humidity.nc
 6678	30.393	    -86.467	    hadisd.3.4.1.202411p_19310101-20241201_722069-53853_humidity.nc
 6687	32.899	    -80.041	    hadisd.3.4.1.202411p_19310101-20241201_722080-13880_humidity.nc
@@ -226,9 +236,11 @@ File 	Latitude	Longitude	Filename
 8248	26.079	    -80.162	    hadisd.3.4.1.202411p_19310101-20241201_747830-12849_humidity.nc
 
 Region 7:
-File 	Latitude	Longitude	Filename
-5768	61.169	    -150.028	hadisd.3.4.1.202411p_19310101-20241201_702730-26451_humidity.nc
-5778	60.129	    -149.418	hadisd.3.4.1.202411p_19310101-20241201_702770-26438_humidity.nc
+
+| File | Latitude | Longitude | Filename |
+| :-: | :-: | :-: | --- |
+| 5768 | 61.169	| -150.028 | hadisd.3.4.1.202411p_19310101-20241201_702730-26451_humidity.nc |
+| 5778 | 60.129 | -149.418 | hadisd.3.4.1.202411p_19310101-20241201_702770-26438_humidity.nc |
 
 
 # NCEI/NOAA (National Center for Environmental Information/National Oceanic and Atmospheric Administration):
