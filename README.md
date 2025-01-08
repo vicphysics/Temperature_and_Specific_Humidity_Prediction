@@ -542,6 +542,8 @@ Global Summary of the Day (GSOD) download:
 https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/
 
 URLs used in the study for downloading CSV files:
+|URL|
+|---|
 https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2006/
 https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2007/
 https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2008/
