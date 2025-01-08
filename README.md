@@ -1,14 +1,14 @@
 Data will be gathered from several sources. Here is a list of these sources:
 
-NSRDB 
-
 HADISDH (Humidity data) 
 
-NCEI/NOAA 
+NSRDB (solar radiation output data)
 
-WDC-SILSO
+NCEI/NOAA (exogenous variables)
 
-ONI
+WDC-SILSO (solar activity data)
+
+ONI (exogenous variable)
 
 # HADISDH (Humidity data):
 
@@ -425,8 +425,8 @@ NSRDB Source File Names for .h5pyd Files:
 Global Summary of the Day (GSOD) download:
 https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/
 
-# Ocean Oscillations Niño Index (ONI):
-https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/detrend.nino34.ascii.txt
-
 # Sunspot Index and Long-term Solar Observations (WDC-SILSO) - Solar Influences Data analysis Center (SIDC)
 Solar activity, measured by the average daily sunspot number, comes from the WDC-SILSO (Royal Observatory of Belgium, Brussels, 2024) dataset. We will use the dataset located on the https://www.sidc.be/SILSO/datafiles webpage and download by clicking the “CSV” button under the “Total Sunspot Number” dropdown and “Daily total sunspot number [1/1/1818 - now]” subheading. The dataset specifies the total number of sunspots observed per day, which will quantify the solar activity for that day. The filename containing this dataset is SN_d_tot_V2.0.csv, which is a semi-colon delimited CSV file in the format with the first six fields being year, month, day, normalized year (month and day are represented by year fraction), total sunspot number, and sunspot number error. The file covers the period from January 1, 1818, until November 30, 2024 with daily total sunspot numbers to represent daily solar activity. 
+
+# Ocean Oscillations Niño Index (ONI):
+https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/detrend.nino34.ascii.txt
