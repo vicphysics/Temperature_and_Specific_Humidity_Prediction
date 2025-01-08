@@ -1,0 +1,25 @@
+#This notebook demonstrates basic usage of the National Renewable Energy Laboratory (NREL) 
+#National Solar Radiation Database (NSRDB) data. The data is provided from Amazon Web #Services using the HDF Group's Highly Scalable Data Service (HSDS).
+
+#The NSRDB is provided in annual .h5 files and currently spans 1998-2018.
+#Each year can be accessed from /nrel/nsrdb/nsrdb_${year}.h5
+
+import os
+import sys
+import h5pyd
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+from scipy.spatial import cKDTree
+
+print(sys.version)
+
+#To confirm version of python is 3.10.16
+!python --version
+
+# Open the desired year of NSRDB data
+# server endpoint, username, password is found via a config file
+f = h5pyd.File("/nrel/nsrdb/v3/nsrdb_2012.h5", 'r')
+
+list(f.attrs)  # list attributes belonging to the root group
