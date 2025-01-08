@@ -244,114 +244,114 @@ Region 7:
 
 HADISDH Location Information:
 
-| File | Location Name | State | Water within 10 km |
+| File | Location Name | State | Water within 10 km (using Google Earth's Measure Tool)|
 | :-: | :-: | :-: | --- |
-| 5768 | Ted Stevens Anchorage Int’l Airport	AK	Cook Inlet
-| 5778 | Seward Airport AWD	AK	Cook Inlet
-| 6640 | American Aviation Flight Academy	FL	Sparkman Lake
-| 6668 | West Memphis Municipal Airport	AR	Mississippi River
-| 6678 | Destin Executive Airport (DTS)	FL	Gulf of Mexico
-| 6687 | Charleston International Airport	SC	Ashley River, Goose Creek Reservoir
-| 6697 | Guymon Municipal Airport	OK	Sunset Lake
-| 6714 | St. Pete-Clearwater International Airport	FL	Tampa Bay
-| 6744 | Westerly State Airport	RI	Atlantic Ocean
-| 6772 | Lee Gilmer Memorial Airport	GA	Lake Lanier
-| 6783 | Atlanta Regional Airport-Falcon Field	GA	Lake McIntosh
-| 6840 | Shelby County Airport	AL	Ebenezer Swamp
-| 6844 | Acadiana Regional Airport (KARA)	LA	Spanish Lake
-| 6854 | Slidell Municipal Airport KASD	LA	Bayou Bonfouca, Lake Pontchartrain
-| 6870 | Hawkins Field Airport	MS	Mayes Lake, Pearl River
-| 6891 | David Wayne Hooks Memorial Airport	TX	 
-| 6895 | Conroe-North Houston Regional Airport	TX	 
-| 6899 | Huntsville Municipal Airport	TX	Spring Lake, Club Lake
-| 6901 | Corsicana Municipal Airport	TX	Richland-Chambers Reservoir
-| 6909 | Terrell Municipal Airport	TX	New Terrell City Lake
-| 6929 | McKinney National Airport	TX	East Fork Trinity River
-| 6950 | Denton Enterprise Airport	TX	Hickory Creek, Pecan Creek
-| 6963 | Fort Stockton Aviation	TX	 
-| 6969 | Odessa-Schlemeyer Field Airport	TX	 
-| 6994 | Deming City Airport	NM	 
-| 7032 | Chino Airport	CA	Chino Creek
-| 7057 | Michael J. Smith Field	NC	Newport River, Harlowe Creek
-| 7094 | Rock Hill-York County Airport	SC	Lake Wylie
-| 7095 | Oconee County Regional Airport-CEU	SC	Lake Keowee
-| 7100 | Greenwood County Airport	SC	Saluda River
-| 7108 | Gastonia Municipal Airport	NC	 
-| 7116 | Burlington Alamance Regional Airport	NC	Lake Mackintosh, Beaver Creek
-| 7119 | Charlotte-Monroe Executive Airport	NC	Baker Quarry Lake, Crooked Creek
-| 7131 | Poplar Bluff Municipal Airport	MO	Black River
-| 7139 | Tri-Cities Airport	TN	Boone Lake
-| 7152 | Russellville Municipal Airport-Rue	AR	Arkansas River
-| 7155 | Northwest Arkansas National Airport	AR	Little Osage Creek, Cave Springs
-| 7156 | Baxter County Airport	AR	Howard Creek
-| 7182 | Wiley Post Airport-PWA	OK	Lake Hefner, Lake Overholser
-| 7193 | Lawton-Fort Sill Regional Airport	OK	Wolf Creek
-| 7202 | Hutchinson County Airport	TX	Pantex Reservoir, Canadien Creek
-| 7239 | Hanford Municipal Airport	CA	 
-| 7280 | Philadelphia International Airport	PA	Delaware River
-| 7286 | Delaware Coastal Airport	DE	Deep Creek
-| 7287 | Essex County Airport	NJ	Passaic River
-| 7311 | Cincinnati/Northern Kentucky Int’l Airport	KY	Ohio River
-| 7321 | Huntington Tri-State Airport	WV	Ohio River
-| 7329 | Toledo Executive Airport	OH	Henry Creek, Crane Creek
-| 7347 | St. Charles County Regional Airport	MO	Mississippi River
-| 7350 | Shelbyville Municipal Airport	IN	Big Blue River
-| 7354 | Monroe County Airport	IN	 
-| 7357 | Eagle Creek Airpark	IN	Eagle Creek Reservoir
-| 7361 | Abraham Lincoln Capital Airport	IL	Sangamon River
-| 7414 | Southeast Colorado Regional Airport	CO	Arkansas River
-| 7423 | Leadville-Lake County Regional Airport	CO	Turquoise Lake
-| 7424 | Meeker Airport	CO	White River
-| 7426 | Aspen/Pitkin County Airport	CO	Woody Creek
-| 7432 | Kit Carson County Airport-ITR	CO	 
-| 7463 | North Las Vegas Airport	NV	 
-| 7482 | Charles M. Schulz-Sonoma County Airport	CA	Lake Benoist
-| 7489 | Long Island Skydiving Center	NY	West Millpond, East Millpond
-| 7528 | Port Meadville Airport	PA	Conneaut Lake
-| 7531 | Heritage Field Airport	PA	Schuylkill River
-| 7533 | Doylestown Airport	PA	Peace Valley Reservoir
-| 7534 | York Airport	PA	Lake Pahagaco, Little Conewaqo Creek
-| 7538 | Clearfield-Lawrence Township Airport	PA	West Branch Susuehanna River
-| 7549 | Oswego County Airport	NY	Oswego River
-| 7553 | Wellsville Municipal Airport	NY	 
-| 7555 | Lehigh Valley International Airport	PA	Lehigh River
-| 7562 | Penn Yan Regional Airport	NY	Keuka Lake
-| 7571 | Lorain County Regional Airport	OH	Black River
-| 7573 | Wayne County Airport	OH	 
-| 7575 | ProAv-Harry Clever Field (KPHD)	OH	Beaverdam Creek, Tuscarawas River
-| 7585 | Defiance Memorial Airport	OH	Maumee River
-| 7599 | St. Louis Downtown Airport	IL	Mississippi River
-| 7603 | Coles County Aviation - Flight Training	IL	 
-| 7606 | Porter County Regional Airport	IL	Sagers Lake
-| 7622 | Ann Arbor Municipal Airport (ARB)	MI	Saline River
-| 7652 | Pocono Mountains Municipal Airport	PA	Stillwater Lake, Lake Naomi
-| 7671 | Ames Municipal Airport	IA	Ada Hayden Heritage Park Lake
-| 7704 | Tekamah Municipal Airport	NE	Missouri River
-| 7786 | Skyhaven Airport	NH	Salmon Falls River, Lily Pond
-| 7805 | Jaffrey Airport-Silver Ranch	NH	Contoocook Lake, Mtn Brook Reservoir
-| 7816 | Massena International Airport	NY	St. Lawrence River, Raquette River
-| 7838 | Alpena County Regional Airport (KAPN)	MI	Thunder Bay
-| 7861 | John F Kennedy Memorial Airport	WI	Chequamegon Bay
-| 7862 | Horlick VOR-DME (HRK) 117.7 MHz	WI	Lake Michigan
-| 7863 | Sheboygan County Memorial Int’l Airport	WI	Sheboygan River
-| 7870 | Boscobel Airport	WI	Wisconsin River
-| 7892 | Spencer Municipal Airport	IA	Little Sioux River
-| 7906 | Pine Ridge Airport - KIEN	SD	Wolf Creek
-| 7907 | Winner Regional Airport	SD	 
-| 7938 | Marshfield Municipal Airport	WI	Little Eau Pleine River, McMillan Marsh
-| 7962 | Johnson County Airport	WY	Lake De Smet
-| 7979 | Baker Municipal Airport - KBHK	MT	Lake Baker
-| 7987 | Jerome County Airport	ID	Clover Creek
-| 7999 | McMinnville Municipal Airport	OR	Wilamette River
-| 8000 | Hermiston Municipal Airport	OR	Cold Springs Reservoir
-| 8034 | Ford Airport	MI	Menominee River
-| 8083 | Hettinger Municipal Airport	ND	 
-| 8120 | Omak Airport	WA	Okanogan River, Brown Lake
-| 8133 | Paine Field	WA	Possession Sound, Puget Sound
-| 8184 | Madera Municipal Airport	CA	 
-| 8186 | Ramona Airport	CA	 
-| 8247 | Jacksonville Executive/Craig Airport (JAXEX)	FL	Mill Cove, St. Johns River
-| 8248 | Fort Lauderdale-Hollywood Int’l Airport	FL	Atlantic Ocean
+| 5768 | Ted Stevens Anchorage Int’l Airport | AK | Cook Inlet |
+| 5778 | Seward Airport AWD | AK | Cook Inlet |
+| 6640 | American Aviation Flight Academy | FL | Sparkman Lake |
+| 6668 | West Memphis Municipal Airport | AR | Mississippi River |
+| 6678 | Destin Executive Airport (DTS) | FL | Gulf of Mexico |
+| 6687 | Charleston International Airport | SC | Ashley River, Goose Creek Reservoir |
+| 6697 | Guymon Municipal Airport | OK | Sunset Lake |
+| 6714 | St. Pete-Clearwater International Airport | FL | Tampa Bay |
+| 6744 | Westerly State Airport | RI | Atlantic Ocean |
+| 6772 | Lee Gilmer Memorial Airport | GA | Lake Lanier |
+| 6783 | Atlanta Regional Airport-Falcon Field | GA | Lake McIntosh |
+| 6840 | Shelby County Airport | AL | Ebenezer Swamp |
+| 6844 | Acadiana Regional Airport (KARA) | LA | Spanish Lake |
+| 6854 | Slidell Municipal Airport KASD | LA | Bayou Bonfouca, Lake Pontchartrain |
+| 6870 | Hawkins Field Airport | MS | Mayes Lake, Pearl River |
+| 6891 | David Wayne Hooks Memorial Airport | TX |  |
+| 6895 | Conroe-North Houston Regional Airport | TX |  |	 
+| 6899 | Huntsville Municipal Airport | TX | Spring Lake, Club Lake |
+| 6901 | Corsicana Municipal Airport | TX | Richland-Chambers Reservoir |
+| 6909 | Terrell Municipal Airport | TX | New Terrell City Lake |
+| 6929 | McKinney National Airport | TX | East Fork Trinity River |
+| 6950 | Denton Enterprise Airport | TX | Hickory Creek, Pecan Creek |
+| 6963 | Fort Stockton Aviation | TX |  |
+| 6969 | Odessa-Schlemeyer Field Airport | TX |  |	 
+| 6994 | Deming City Airport | NM |  |
+| 7032 | Chino Airport | CA | Chino Creek |
+| 7057 | Michael J. Smith Field | NC | Newport River, Harlowe Creek |
+| 7094 | Rock Hill-York County Airport | SC | Lake Wylie |
+| 7095 | Oconee County Regional Airport-CEU | SC | Lake Keowee |
+| 7100 | Greenwood County Airport | SC | Saluda River |
+| 7108 | Gastonia Municipal Airport | NC |  |	 
+| 7116 | Burlington Alamance Regional Airport | NC | Lake Mackintosh, Beaver Creek |
+| 7119 | Charlotte-Monroe Executive Airport | NC | Baker Quarry Lake, Crooked Creek |
+| 7131 | Poplar Bluff Municipal Airport | MO | Black River |
+| 7139 | Tri-Cities Airport | TN | Boone Lake |
+| 7152 | Russellville Municipal Airport-Rue | AR | Arkansas River |
+| 7155 | Northwest Arkansas National Airport | AR | Little Osage Creek, Cave Springs |
+| 7156 | Baxter County Airport | AR | Howard Creek |
+| 7182 | Wiley Post Airport-PWA | OK | Lake Hefner, Lake Overholser |
+| 7193 | Lawton-Fort Sill Regional Airport | OK | Wolf Creek |
+| 7202 | Hutchinson County Airport | TX | Pantex Reservoir, Canadien Creek |
+| 7239 | Hanford Municipal Airport | CA |  |
+| 7280 | Philadelphia International Airport | PA | Delaware River |
+| 7286 | Delaware Coastal Airport | DE | Deep Creek |
+| 7287 | Essex County Airport | NJ | Passaic River |
+| 7311 | Cincinnati/Northern Kentucky Int’l Airport | KY | Ohio River |
+| 7321 | Huntington Tri-State Airport | WV | Ohio River |
+| 7329 | Toledo Executive Airport | OH | Henry Creek, Crane Creek |
+| 7347 | St. Charles County Regional Airport | MO | Mississippi River |
+| 7350 | Shelbyville Municipal Airport | IN | Big Blue River |
+| 7354 | Monroe County Airport | IN |  |
+| 7357 | Eagle Creek Airpark | IN | Eagle Creek Reservoir |
+| 7361 | Abraham Lincoln Capital Airport | IL | Sangamon River |
+| 7414 | Southeast Colorado Regional Airport | CO | Arkansas River |
+| 7423 | Leadville-Lake County Regional Airport | CO | Turquoise Lake |
+| 7424 | Meeker Airport | CO | White River |
+| 7426 | Aspen/Pitkin County Airport | CO | Woody Creek |
+| 7432 | Kit Carson County Airport-ITR | CO |  |
+| 7463 | North Las Vegas Airport | NV |  |	 
+| 7482 | Charles M. Schulz-Sonoma County Airport | CA | Lake Benoist |
+| 7489 | Long Island Skydiving Center | NY | West Millpond, East Millpond |
+| 7528 | Port Meadville Airport	| PA | Conneaut Lake |
+| 7531 | Heritage Field Airport | PA | Schuylkill River |
+| 7533 | Doylestown Airport | PA | Peace Valley Reservoir |
+| 7534 | York Airport | PA | Lake Pahagaco, Little Conewaqo Creek |
+| 7538 | Clearfield-Lawrence Township Airport | PA | West Branch Susuehanna River |
+| 7549 | Oswego County Airport | NY | Oswego River |
+| 7553 | Wellsville Municipal Airport | NY |  |	 
+| 7555 | Lehigh Valley International Airport | PA | Lehigh River |
+| 7562 | Penn Yan Regional Airport | NY | Keuka Lake |
+| 7571 | Lorain County Regional Airport | OH | Black River |
+| 7573 | Wayne County Airport | OH |  |
+| 7575 | ProAv-Harry Clever Field (KPHD) | OH | Beaverdam Creek, Tuscarawas River |
+| 7585 | Defiance Memorial Airport | OH | Maumee River |
+| 7599 | St. Louis Downtown Airport | IL | Mississippi River |
+| 7603 | Coles County Aviation - Flight Training | IL |  | 
+| 7606 | Porter County Regional Airport | IL | Sagers Lake |
+| 7622 | Ann Arbor Municipal Airport (ARB) | MI | Saline River |
+| 7652 | Pocono Mountains Municipal Airport | PA | Stillwater Lake, Lake Naomi |
+| 7671 | Ames Municipal Airport | IA | Ada Hayden Heritage Park Lake |
+| 7704 | Tekamah Municipal Airport | NE | Missouri River |
+| 7786 | Skyhaven Airport | NH | Salmon Falls River, Lily Pond |
+| 7805 | Jaffrey Airport-Silver Ranch | NH | Contoocook Lake, Mtn Brook Reservoir |
+| 7816 | Massena International Airport | NY | St. Lawrence River, Raquette River |
+| 7838 | Alpena County Regional Airport (KAPN) | MI | Thunder Bay |
+| 7861 | John F Kennedy Memorial Airport | WI | Chequamegon Bay |
+| 7862 | Horlick VOR-DME (HRK) 117.7 MHz | WI | Lake Michigan |
+| 7863 | Sheboygan County Memorial Int’l Airport | WI | Sheboygan River |
+| 7870 | Boscobel Airport | WI | Wisconsin River |
+| 7892 | Spencer Municipal Airport | IA | Little Sioux River |
+| 7906 | Pine Ridge Airport - KIEN | SD | Wolf Creek |
+| 7907 | Winner Regional Airport | SD |  |	 
+| 7938 | Marshfield Municipal Airport | WI | Little Eau Pleine River, McMillan Marsh |
+| 7962 | Johnson County Airport | WY | Lake De Smet |
+| 7979 | Baker Municipal Airport - KBHK | MT | Lake Baker |
+| 7987 | Jerome County Airport | ID | Clover Creek |
+| 7999 | McMinnville Municipal Airport | OR | Wilamette River |
+| 8000 | Hermiston Municipal Airport | OR | Cold Springs Reservoir |
+| 8034 | Ford Airport | MI | Menominee River |
+| 8083 | Hettinger Municipal Airport | ND |  |	 
+| 8120 | Omak Airport | WA | Okanogan River, Brown Lake |
+| 8133 | Paine Field | WA | Possession Sound, Puget Sound |
+| 8184 | Madera Municipal Airport | CA |  | 
+| 8186 | Ramona Airport | CA |  |
+| 8247 | Jacksonville Executive/Craig Airport (JAXEX) | FL | Mill Cove, St. Johns River |
+| 8248 | Fort Lauderdale-Hollywood Int’l Airport | FL | Atlantic Ocean |
 | 9858 | Oklahoma State University | OK | Boomer Lake
 
 
