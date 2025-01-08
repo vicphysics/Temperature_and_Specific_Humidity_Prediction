@@ -97,14 +97,16 @@ https://medium.com/analytics-vidhya/how-to-read-and-visualize-netcdf-nc-geospati
 
 HADISDH Files chosen to be used in study:
 
-Region 1:
-File 	Latitude	Longitude	Filename
-7962	44.381	    -106.72	    hadisd.3.4.1.202411p_19310101-20241201_726654-94054_humidity.nc
-7987	42.727	    -114.455	hadisd.3.4.1.202411p_19310101-20241201_726816-04110_humidity.nc
-7999	45.196	    -123.134	hadisd.3.4.1.202411p_19310101-20241201_726881-94273_humidity.nc
-8000	45.826	    -119.261	hadisd.3.4.1.202411p_19310101-20241201_726883-04113_humidity.nc
-8120	48.461	    -119.521	hadisd.3.4.1.202411p_19310101-20241201_727890-94197_humidity.nc
-8133	47.923	    -122.283	hadisd.3.4.1.202411p_19310101-20241201_727937-24222_humidity.nc
+| Region 1: |
+|---|
+| File | Latitude | Longitude | Filename |
+| :-: | :-: | :-: | --- |
+| 7962 | 44.381 | -106.72 | hadisd.3.4.1.202411p_19310101-20241201_726654-94054_humidity.nc |
+| 7987 | 42.727 | -114.455 | hadisd.3.4.1.202411p_19310101-20241201_726816-04110_humidity.nc |
+| 7999 | 45.196 | -123.134 | hadisd.3.4.1.202411p_19310101-20241201_726881-94273_humidity.nc |
+| 8000 | 45.826 | -119.261 | hadisd.3.4.1.202411p_19310101-20241201_726883-04113_humidity.nc |
+| 8120 | 48.461 | -119.521 | hadisd.3.4.1.202411p_19310101-20241201_727890-94197_humidity.nc |
+| 8133 | 47.923 | -122.283 | hadisd.3.4.1.202411p_19310101-20241201_727937-24222_humidity.nc |
 
 Region 2:
 File 	Latitude	Longitude	Filename
@@ -229,7 +231,7 @@ File 	Latitude	Longitude	Filename
 5778	60.129	    -149.418	hadisd.3.4.1.202411p_19310101-20241201_702770-26438_humidity.nc
 
 
-# NCEI/NOAA (Nationa Center for Environmental Information/National Oceanic and Atmospheric Administration):
+# NCEI/NOAA (National Center for Environmental Information/National Oceanic and Atmospheric Administration):
 Global Summary of the Day (GSOD) download:
 https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/
 
