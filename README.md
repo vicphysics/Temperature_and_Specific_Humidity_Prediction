@@ -130,6 +130,7 @@ WMO_850000-899999_humidity.tar
 WMO_900000-949999_humidity.tar
 WMO_950000-999999_humidity.tar
 
+We use the code from the Extract NC files followed by the Python code to choose NC Files to generate the list of files below.
 
 HADISDH Files chosen to be used in study:
 
@@ -391,8 +392,37 @@ Note: For files where "Water within 10 km" is blank, the water/land variable wil
 | 8248 | Fort Lauderdale-Hollywood Int’l Airport | FL | Atlantic Ocean |
 | 9858 | Oklahoma State University | OK | Boomer Lake
 
+We then use the code for putting the NC Files into a Dataframe and clean the data using the average monthly values to fill each missing/NaN value.
 
-# NCEI/NOAA (National Center for Environmental Information/National Oceanic and Atmospheric Administration):
+#National Solar Radiation Database (NSRDB):
+
+We will use the following files to extract the solar radiation output variable (GHI) from the NSRDB:
+
+NSRDB Source File Names for .h5pyd Files:
+
+| NSRDB Source File Names |
+| :-: |
+/nrel/nsrdb/v3/nsrdb_2006.h5
+/nrel/nsrdb/v3/nsrdb_2007.h5
+/nrel/nsrdb/v3/nsrdb_2008.h5
+/nrel/nsrdb/v3/nsrdb_2009.h5
+/nrel/nsrdb/v3/nsrdb_2010.h5
+/nrel/nsrdb/v3/nsrdb_2011.h5
+/nrel/nsrdb/v3/nsrdb_2012.h5
+/nrel/nsrdb/v3/nsrdb_2013.h5
+/nrel/nsrdb/v3/nsrdb_2014.h5
+/nrel/nsrdb/v3/nsrdb_2015.h5
+/nrel/nsrdb/v3/nsrdb_2016.h5
+/nrel/nsrdb/v3/nsrdb_2017.h5
+/nrel/nsrdb/v3/nsrdb_2018.h5
+/nrel/nsrdb/v3/nsrdb_2019.h5
+/nrel/nsrdb/v3/nsrdb_2020.h5
+/nrel/nsrdb/v3/nsrdb_2021.h5
+/nrel/nsrdb/v3/nsrdb_2022.h5
+/nrel/nsrdb/v3/nsrdb_2023.h5
+/nrel/nsrdb/v3/nsrdb_2024.h5
+
+# National Center for Environmental Information/National Oceanic and Atmospheric Administration (NCEI/NOAA):
 Global Summary of the Day (GSOD) download:
 https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/
 
