@@ -541,6 +541,27 @@ NSRDB Source File Names for .h5pyd Files:
 Global Summary of the Day (GSOD) download:
 https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/
 
+URLs used in the study for downloading CSV files:
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2006/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2007/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2008/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2009/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2010/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2011/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2012/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2013/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2014/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2015/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2016/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2017/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2018/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2019/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2020/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2021/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2022/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2023/
+https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2024/
+
 # Sunspot Index and Long-term Solar Observations (WDC-SILSO) - Solar Influences Data analysis Center (SIDC)
 Solar activity, measured by the average daily sunspot number, comes from the WDC-SILSO (Royal Observatory of Belgium, Brussels, 2024) dataset. We will use the dataset located on the https://www.sidc.be/SILSO/datafiles webpage and download by clicking the “CSV” button under the “Total Sunspot Number” dropdown and “Daily total sunspot number [1/1/1818 - now]” subheading. The dataset specifies the total number of sunspots observed per day, which will quantify the solar activity for that day. The filename containing this dataset is SN_d_tot_V2.0.csv, which is a semi-colon delimited CSV file in the format with the first six fields being year, month, day, normalized year (month and day are represented by year fraction), total sunspot number, and sunspot number error. The file covers the period from January 1, 1818, until November 30, 2024 with daily total sunspot numbers to represent daily solar activity. 
 
