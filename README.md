@@ -243,6 +243,7 @@ Region 7:
 | 5778 | 60.129 | -149.418 | hadisd.3.4.1.202411p_19310101-20241201_702770-26438_humidity.nc |
 
 HADISDH Location Information:
+Note: For files where "Water within 10 km" is blank, the water/land variable will be zero (0=land). Otherwise, it will be set to one (1=near water).
 
 | File | Location Name | State | Water within 10 km (using Google Earth's Measure Tool)|
 | :-: | :-: | :-: | --- |
