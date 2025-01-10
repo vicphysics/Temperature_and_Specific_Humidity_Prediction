@@ -102,9 +102,9 @@ with open("filenames_only.csv", mode='r') as file:
       # Drop unneeded columns
       df_filtered = df_filtered.drop(['input_station_id','station_id','coordinate_length'], axis=1)
       df_filtered = df_filtered.drop(['relative_humidity', 'saturation_vapor_pressure', 'dewpoints'], axis=1)
-      df_filtered = df_filtered.assign(file_id = array_row[0])
-      df_filtered = df_filtered.assign(region = array_row[1])
-      df_filtered = df_filtered.assign(water = array_row[2])
+      df_filtered = df_filtered.assign(file_id = int(array_row[0]))
+      df_filtered = df_filtered.assign(region = int(array_row[1]))
+      df_filtered = df_filtered.assign(water = int(array_row[2]))
 
       j=0
 
