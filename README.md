@@ -255,8 +255,6 @@ Note: For files where "Water within 10 km" is blank, the water/land variable wil
 
 | File | Location Name | State | Water within 10 km (using Google Earth's Measure Tool)|
 | :-: | :-: | :-: | --- |
-| 5768 | Ted Stevens Anchorage Int’l Airport | AK | Cook Inlet |
-| 5778 | Seward Airport AWD | AK | Cook Inlet |
 | 6640 | American Aviation Flight Academy | FL | Sparkman Lake |
 | 6668 | West Memphis Municipal Airport | AR | Mississippi River |
 | 6678 | Destin Executive Airport (DTS) | FL | Gulf of Mexico |
@@ -367,8 +365,6 @@ Statistics for Chosen HADISDH Data Files:
 
 | File | Latitude | Longitude | Elevation | Missing | Region | Start Date | End Date | Water |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| 5768 | 61.169 | -150.028 | 38 | 57 | 7 | 19531101 | 20241130 | 1 |
-| 5778 | 60.129 | -149.418 | 4.1 | 501 | 7 | 20060101 | 20241130 | 1 |
 | 6501 | 33.636 | -91.756 | 85 | 266 | 4 | 20050101 | 20241130 | 1 |
 | 6541 | 38.958 | -94.371 | 304.8 | 571 | 4 | 20040525 | 20241130 | 1 |
 | 6640 | 28.474 | -82.454 | 19.7 | 521 | 6 | 19990101 | 20241130 | 1 |
