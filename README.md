@@ -475,7 +475,7 @@ Statistics for Chosen HADISDH Data Files:
 | 9858 | 36.118 | -97.091 | 271.3 | 153 | 4 | 20020312 | 20241130 | 1 |
 
 
-We then use the code for putting the NC Files into a Dataframe and clean the data using the average monthly values to fill each missing/NaN value.
+We then use the code for putting the NC Files into a Dataframe and clean the data using the average monthly values to fill each missing/NaN value. The code to accomplish this can be found in the "Load HADISDH Data into Dataframe" file.
 
 # National Solar Radiation Database (NSRDB):
 
@@ -525,6 +525,8 @@ NSRDB Source File Names for .h5pyd Files:
 /nrel/nsrdb/v3/nsrdb_2022.h5
 /nrel/nsrdb/v3/nsrdb_2023.h5
 /nrel/nsrdb/v3/nsrdb_2024.h5
+
+The code that takes the HADISDH and extracts and combines the data with the NSRDB data can be found in the "Combine_HADISDH_NSRDB_Data" file. 
 
 # National Center for Environmental Information/National Oceanic and Atmospheric Administration (NCEI/NOAA):
 Global Summary of the Day (GSOD) download:
