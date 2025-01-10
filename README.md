@@ -255,6 +255,8 @@ Note: For files where "Water within 10 km" is blank, the water/land variable wil
 
 | File | Location Name | State | Water within 10 km (using Google Earth's Measure Tool)|
 | :-: | :-: | :-: | --- |
+| 6501 | Monticello Municipal Airport/Ellis Field | AR | Lake Monticello |
+| 6541 | Lee's Summit Municipal Airport | MO | Unity Lake No. 2 |
 | 6640 | American Aviation Flight Academy | FL | Sparkman Lake |
 | 6668 | West Memphis Municipal Airport | AR | Mississippi River |
 | 6678 | Destin Executive Airport (DTS) | FL | Gulf of Mexico |
