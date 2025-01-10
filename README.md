@@ -250,13 +250,6 @@ Region 6:
 | 8247 | 30.337	| -81.513 | hadisd.3.4.1.202411p_19310101-20241201_747820-53860_humidity.nc
 | 8248 | 26.079	| -80.162 | hadisd.3.4.1.202411p_19310101-20241201_747830-12849_humidity.nc
 
-Region 7:
-
-| File | Latitude | Longitude | Filename |
-| :-: | :-: | :-: | --- |
-| 5768 | 61.169	| -150.028 | hadisd.3.4.1.202411p_19310101-20241201_702730-26451_humidity.nc |
-| 5778 | 60.129 | -149.418 | hadisd.3.4.1.202411p_19310101-20241201_702770-26438_humidity.nc |
-
 HADISDH Location Information:
 Note: For files where "Water within 10 km" is blank, the water/land variable will be zero (0=land). Otherwise, it will be set to one (1=near water).
 
