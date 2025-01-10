@@ -480,7 +480,7 @@ We then use the code for putting the NC Files into a Dataframe and clean the dat
 # National Solar Radiation Database (NSRDB):
 
 National Renewable Energy Laboratory (NREL): National Solar Radiation Database (NSRDB)
-The NSRDB is provided in annual .h5 files and currently spans 1998-2018 with data files stored in Hierarchical Data Format Version 5 (HDF5).
+The NSRDB is provided in annual .h5 files and currently spans 1998-2020 with data files stored in Hierarchical Data Format Version 5 (HDF5).
 Each year can be accessed from /nrel/nsrdb/nsrdb_${year}.h5
 The data is provided from Amazon Web Services (AWS) using the HDF Group's Highly Scalable Data Service (HSDS).
 
