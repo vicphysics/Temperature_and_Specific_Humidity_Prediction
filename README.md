@@ -131,7 +131,6 @@ Region 2:
 | 7032 | 33.976 | -117.625 | hadisd.3.4.1.202411p_19310101-20241201_722899-03179_humidity.nc |
 | 7239 | 36.311 | -119.623 | hadisd.3.4.1.202411p_19310101-20241201_723898-53119_humidity.nc |
 | 7424 | 40.044 | -107.888 | hadisd.3.4.1.202411p_19310101-20241201_724674-94050_humidity.nc |
-| 7426 | 39.23 | -106.871 | hadisd.3.4.1.202411p_19310101-20241201_724676-93073_humidity.nc |
 | 7463 | 36.212 | -115.194 | hadisd.3.4.1.202411p_19310101-20241201_724846-53123_humidity.nc |
 | 7482 | 38.504 | -122.811 | hadisd.3.4.1.202411p_19310101-20241201_724957-23213_humidity.nc |
 | 8184 | 36.985 | -120.111 | hadisd.3.4.1.202411p_19310101-20241201_745046-93242_humidity.nc |
@@ -146,7 +145,6 @@ Region 3:
 | 7861 | 46.547 | -90.918 | hadisd.3.4.1.202411p_19310101-20241201_726419-94929_humidity.nc |
 | 7870 | 43.156 | -90.678 | hadisd.3.4.1.202411p_19310101-20241201_726438-94994_humidity.nc |
 | 7892 | 43.168 | -95.21 | hadisd.3.4.1.202411p_19310101-20241201_726500-14972_humidity.nc |
-| 7906 | 43.026 | -102.52 | hadisd.3.4.1.202411p_19310101-20241201_726517-94039_humidity.nc |
 | 7907 | 43.389 | -99.843 | hadisd.3.4.1.202411p_19310101-20241201_726518-94990_humidity.nc |
 | 7938 | 44.638 | -90.188 | hadisd.3.4.1.202411p_19310101-20241201_726574-94985_humidity.nc |
 | 7979 | 46.352 | -104.261 | hadisd.3.4.1.202411p_19310101-20241201_726777-94055_humidity.nc |
@@ -311,7 +309,6 @@ Note: For files where "Water within 10 km" is blank, the water/land variable wil
 | 7414 | Southeast Colorado Regional Airport | CO | Arkansas River |
 | 7423 | Leadville-Lake County Regional Airport | CO | Turquoise Lake |
 | 7424 | Meeker Airport | CO | White River |
-| 7426 | Aspen/Pitkin County Airport | CO | Woody Creek |
 | 7432 | Kit Carson County Airport-ITR | CO |  |
 | 7463 | North Las Vegas Airport | NV |  |	 
 | 7482 | Charles M. Schulz-Sonoma County Airport | CA | Lake Benoist |
@@ -327,6 +324,7 @@ Note: For files where "Water within 10 km" is blank, the water/land variable wil
 | 7562 | Penn Yan Regional Airport | NY | Keuka Lake |
 | 7571 | Lorain County Regional Airport | OH | Black River |
 | 7573 | Wayne County Airport | OH |  |
+| 7574 | Butler County Regional Airport-Hogan Field | OH | Great Miami River |
 | 7575 | ProAv-Harry Clever Field (KPHD) | OH | Beaverdam Creek, Tuscarawas River |
 | 7585 | Defiance Memorial Airport | OH | Maumee River |
 | 7599 | St. Louis Downtown Airport | IL | Mississippi River |
@@ -345,7 +343,6 @@ Note: For files where "Water within 10 km" is blank, the water/land variable wil
 | 7863 | Sheboygan County Memorial Int’l Airport | WI | Sheboygan River |
 | 7870 | Boscobel Airport | WI | Wisconsin River |
 | 7892 | Spencer Municipal Airport | IA | Little Sioux River |
-| 7906 | Pine Ridge Airport - KIEN | SD | Wolf Creek |
 | 7907 | Winner Regional Airport | SD |  |	 
 | 7938 | Marshfield Municipal Airport | WI | Little Eau Pleine River, McMillan Marsh |
 | 7962 | Johnson County Airport | WY | Lake De Smet |
@@ -423,7 +420,6 @@ Statistics for Chosen HADISDH Data Files:
 | 7414 | 38.072 | -102.687 | 1124 | 577 | 4 | 19950101 | 20241130 | 1 |
 | 7423 | 39.228 | -106.316 | 3030.6 | 412 | 4 | 20060101 | 20241130 | 1 |
 | 7424 | 40.044 | -107.888 | 1940.8 | 420 | 2 | 20060101 | 20241130 | 1 |
-| 7426 | 39.23 | -106.871 | 2339.9 | 67 | 2 | 20060101 | 20241130 | 1 |
 | 7432 | 39.241 | -102.282 | 1278.2 | 371 | 4 | 19990101 | 20241130 | 0 |
 | 7463 | 36.212 | -115.194 | 667.4 | 114 | 2 | 19990101 | 20241130 | 0 |
 | 7482 | 38.504 | -122.811 | 36.2 | 177 | 2 | 20000101 | 20241130 | 1 |
@@ -458,7 +454,6 @@ Statistics for Chosen HADISDH Data Files:
 | 7863 | 43.775 | -87.849 | 228.9 | 138 | 5 | 19990101 | 20241130 | 1 |
 | 7870 | 43.156 | -90.678 | 203.1 | 388 | 3 | 20060101 | 20241130 | 1 |
 | 7892 | 43.168 | -95.21 | 407.5 | 399 | 3 | 20060101 | 20241130 | 1 |
-| 7906 | 43.026 | -102.52 | 1002 | 628 | 3 | 19990101 | 20241130 | 1 |
 | 7907 | 43.389 | -99.843 | 615 | 214 | 3 | 20060101 | 20241130 | 0 |
 | 7938 | 44.638 | -90.188 | 381.5 | 653 | 3 | 19920101 | 20241130 | 1 |
 | 7962 | 44.381 | -106.72 | 1503.8 | 168 | 1 | 20060101 | 20241130 | 1 |
@@ -477,7 +472,7 @@ Statistics for Chosen HADISDH Data Files:
 | 9858 | 36.118 | -97.091 | 271.3 | 153 | 4 | 20020312 | 20241130 | 1 |
 
 
-We then use the code for putting the NC Files into a Dataframe and clean the data using the average monthly values to fill each missing/NaN value. The code to accomplish this can be found in the "Load HADISDH Data into Dataframe" file.
+We then use the code for putting the NC Files into a Dataframe and clean the data using the average monthly values to fill each missing/NaN value. The code to accomplish this can be found in the "Select NC Files for Study" and "Combine_HADISDH_NSRDB_Data" Python code files.
 
 # National Solar Radiation Database (NSRDB):
 
