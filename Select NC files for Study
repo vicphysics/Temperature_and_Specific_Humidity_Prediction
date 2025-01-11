@@ -6,29 +6,38 @@ import netCDF4 as nc
 from datetime import datetime, timedelta
 from scipy import stats
 
-# Get the current working directory 
-current_directory = os.getcwd() 
+# Delete filenames_only.csv, filenames_chosen.csv, and locations.csv files.
+# We will regenerate with these additional NaN files removed:
+#6498,6543,6706,6720,6767,7158,7266,7697,7707,7711,7859,9733,
+#9736,9737,9738,9757,9762,9798,9861,9863,9864,9865,9867,9871,
+#9875,9878,9882,9885,9900,9902,9931,9932,9936,9937
+#These correspond to positions:
+#2,5,11,13,15,45,50,90,92,93,98, and 120-143 (except 127)
 
-# Print the current working directory 
+# Get the current working directory
+current_directory = os.getcwd()
+
+# Print the current working directory
 print(current_directory)
 
-# Define the directory containing the files 
+# Define the directory containing the files
 path = current_directory+"\\Data\\HADISDH_Humidity\\NC_Files\\"
 print(path)
 
-# Create empty lists to hold location data and filenames chosen from United States with missing values < 1000 
-locations = [] 
+# Recreate empty lists to hold location data and chosen filenames
+locations = []
 filenames_chosen = []
+filenames_only = []
 i = 0
-t = "19310101"
+t ="19310101" #all time values measured starting January 1, 1931
 
-for filename in os.listdir(path): 
-   if filename.endswith('.nc'): # Check if the file is a .nc file 
+for filename in os.listdir(path):
+   if filename.endswith('.nc'): # Check if the file is a .nc file
       # Open the NetCDF file
       file = path+filename
       i += 1
       region = 0
-      data = nc.Dataset(file, 'r') # read the data 
+      data = nc.Dataset(file, 'r') # read the data
       lat = data['latitude'][:]
       lon = data['longitude'][:]
       elev = data['elevation'][:]
@@ -36,11 +45,11 @@ for filename in os.listdir(path):
       time2 = stats.describe(time)[1][0]//24
       date = datetime(year=int(t[0:4]), month=int(t[4:6]), day=int(t[6:8]))
       date += timedelta(days=time2)
-      start_date = date.strftime("%Y%m%d")
+      start_date = date.strftime(\"%Y%m%d\")
       date = datetime(year=int(t[0:4]), month=int(t[4:6]), day=int(t[6:8])) #reset date
       time2 = stats.describe(time)[1][1]//24 #set time difference to max time
       date += timedelta(days=time2) #add max time to January 1, 1931
-      end_date = date.strftime("%Y%m%d")
+      end_date = date.strftime(\"%Y%m%d\")
       s = data['specific_humidity'][:]
       nobs = stats.describe(s)[0] # number of observations
       min = stats.describe(time)[1][0] #minimum time
@@ -65,40 +74,199 @@ for filename in os.listdir(path):
          region = 8
       else:
          region = 0
-      print("Running file "+str(i)+" : "+filename)
+      print(\"Running file \"+str(i)+\" : \"+filename)
       #we ignore any files not in US or with excessive missing data (>999)
       if(region > 0 and missing < 720 and int(start_date) <= 20060102 and int(end_date) >= 20241101):
          locations.append([i, lat[:][0], lon[:][0], elev[:][0], nobs, min, max, range, missing, region, start_date, end_date])
-         filenames_chosen.append([i, lat[:][0], lon[:][0], region, filename])
-     
+         filenames_chosen.append([i, lat[:][0], lon[:][0], elev[:][0], region, start_date, end_date, missing, filename])
+         filenames_only.append([filename])
+
 # Print the dataset to see its structure
-#print(data)
-print(type(data)) # print the type of the data 
+print(type(data)) # print the type of the data
 print(data.variables.keys()) # print the variables in the data
 
 print(locations)
 print(filenames_chosen)
-#We only have a total of 144 files chosen. Although 145 files get selected, we remove           #file number 9901 because using Google Earth, we see this is near Toronto in Canada. 
-filenames_chosen.pop(139) # Remove file 9901 from chosen files
-filenames_only.pop(139) # Remove file 9901 from filenames for pulling data
 
-#Files By Region: 141 in the continental US
-#(7 in Region 1, 9 in Region 2, 22 in Region 3, 37 in Region 4, 29 in Region 5, and 37 in Region 6),
-#2 in Alaska, 1 in Hawaii
+#We only have a total of 107 files chosen. Although 145 files get selected, we remove
+#file number 9901 because using Google Earth, we see this is near Toronto in Canada.
+#We also remove 34 files that have NaN for specific humidity and other exogenous variables.
+#We also remove 3 files for which we don’t find NSRDB coverage.
+#6 in Region 1, 8 in Region 2, 10 in Region 3, 30 in Region 4, 23 in Region 5, and 30 in Region 6
+
+#Remove file 9901 in Canada
+filenames_chosen.pop(139)
+filenames_only.pop(139)
+locations.pop(139)
+
+#Remove NaN files
+filenames_chosen.pop(143)
+filenames_only.pop(143)
+locations.pop(143)
+
+filenames_chosen.pop(142)
+filenames_only.pop(142)
+locations.pop(142)
+
+filenames_chosen.pop(141)
+filenames_only.pop(141)
+locations.pop(141)
+
+filenames_chosen.pop(140)
+filenames_only.pop(140)
+locations.pop(140)
+
+filenames_chosen.pop(139)
+filenames_only.pop(139)
+locations.pop(139)
+
+filenames_chosen.pop(138)
+filenames_only.pop(138)
+locations.pop(138)
+
+filenames_chosen.pop(137)
+filenames_only.pop(137)
+locations.pop(137)
+
+filenames_chosen.pop(136)
+filenames_only.pop(136)
+locations.pop(136)
+
+filenames_chosen.pop(135)
+filenames_only.pop(135)
+locations.pop(135)
+
+filenames_chosen.pop(134)
+filenames_only.pop(134)
+locations.pop(134)
+
+filenames_chosen.pop(133)
+filenames_only.pop(133)
+locations.pop(133)
+
+filenames_chosen.pop(132)
+filenames_only.pop(132)
+locations.pop(132)
+
+filenames_chosen.pop(131)
+filenames_only.pop(131)
+locations.pop(131)
+
+filenames_chosen.pop(130)
+filenames_only.pop(130)
+locations.pop(130)
+
+filenames_chosen.pop(129)
+filenames_only.pop(129)
+locations.pop(129)
+
+filenames_chosen.pop(128)
+filenames_only.pop(128)
+locations.pop(128)
+
+filenames_chosen.pop(126)
+filenames_only.pop(126)
+locations.pop(126)
+
+filenames_chosen.pop(125)
+filenames_only.pop(125)
+locations.pop(125)
+
+filenames_chosen.pop(124)
+filenames_only.pop(124)
+locations.pop(124)
+
+filenames_chosen.pop(123)
+filenames_only.pop(123)
+locations.pop(123)
+
+filenames_chosen.pop(122)
+filenames_only.pop(122)
+locations.pop(122)
+
+filenames_chosen.pop(121)
+filenames_only.pop(121)
+locations.pop(121)
+
+filenames_chosen.pop(120)
+filenames_only.pop(120)
+locations.pop(120)
+
+filenames_chosen.pop(98)
+filenames_only.pop(98)
+locations.pop(98)
+
+filenames_chosen.pop(93)
+filenames_only.pop(93)
+locations.pop(93)
+
+filenames_chosen.pop(92)
+filenames_only.pop(92)
+locations.pop(92)
+
+filenames_chosen.pop(90)
+filenames_only.pop(90)
+locations.pop(90)
+
+filenames_chosen.pop(50)
+filenames_only.pop(50)
+locations.pop(50)
+
+filenames_chosen.pop(45)
+filenames_only.pop(45)
+locations.pop(45)
+
+filenames_chosen.pop(15)
+filenames_only.pop(15)
+locations.pop(15)
+
+filenames_chosen.pop(13)
+filenames_only.pop(13)
+locations.pop(13)
+
+filenames_chosen.pop(11)
+filenames_only.pop(11)
+locations.pop(11)
+
+filenames_chosen.pop(5)
+filenames_only.pop(5)
+locations.pop(5)
+
+filenames_chosen.pop(2)
+filenames_only.pop(2)
+locations.pop(2)
+
+#Need to remove Alaska since NSRDB doesn’t cover these high latitudes
+filenames_chosen.pop(2)
+filenames_only.pop(2)
+locations.pop(2)
+
+filenames_chosen.pop(1)
+filenames_only.pop(1)
+locations.pop(1)
+
+#Need to remove file 7426 since we cannot locate NSRDB data within 0.02 degrees latitude/longitude
+filenames_chosen.pop(57)
+filenames_only.pop(57)
+locations.pop(57)
+
+print(filenames_chosen)\n",
+print(filenames_only)\n",
+
 #File Numbers:
-#US Region 1: 7962,7987,7999,8000,8120,8133,9757
-#US Region 2: 6994,7032,7239,7424,7426,7463,7482,8184,8186
-#US Region 3: 6543,6767,7158,7671,7697,7704,7707,7711,7859,7861,7870,7892,7906, #7907,7938,7979,8083, 9762,9871,9931,9936,9937
-#US Region 4: 6498,6501,6541,6668,6697,6706,6720,6844,6854,6870,6891,6895,6899,6901, 6909,6929,6950,6963,6969,7131,7152,7155,7156,7182,7193,7202,7347,7361,7414,7423,7432, #7599,9733,9858,9861,9878,9932
-#US Region 5: 6744,7287,7329,7489,7528,7538,7549,7553,7555,7562,7571,7573,7585,7606, #7622,7652,7786,7805,7816,7838,7862,7863,8034,9863,9864,9865,9867,9900,9902
-#Note: 9901 was removed from Region 5 because not in US
-#US Region 6: 6640,6678,6687,6714,6772,6783,6840,7057,7094,7095,7100,7108,7116,7119, #7139,7266,7280,7286,7311,7321,7350,7354,7357,7531,7533,7534,7574,7575,7603,8247,8248, #9736,9737,9738,9875,9882,9885
-#Alaska: 5768,5778
-#Hawaii: 9798
+#US Region 1: 7962,7987,7999,8000,8120,8133
+#US Region 2: 6994,7032,7239,7424,7463,7482,8184,8186
+#US Region 3: 7671,7704,7861,7870,7892,7906,7907,7938,7979,8083
+#US Region 4: 6501,6541,6668,6697,6844,6854,6870,6891,6895,6899,6901,6909,6929,6950,6963,6969,7131,7152,7155,
+#7156,7182,7193,7202,7347,7361,7414,7423,7432,7599,9858
+#US Region 5: 6744,7287,7329,7489,7528,7538,7549,7553,7555,7562,7571,7573,7585,7606,7622,7652,7786,7805,7816,7838,7862,7863,8034
+#US Region 6: 6640,6678,6687,6714,6772,6783,6840,7057,7094,7095,7100,7108,7116,7119,7139,7280,7286,7311,7321,7350,7354,
+#7357,7531,7533,7534,7574,7575,7603,8247,8248
 
 # Specify the file name
 output_file = "locations_output.csv"
 output_file2 = "filenames_chosen.csv"
+output_file3 = “filenames_only.csv”
 
 # Writing to first csv file
 with open(output_file, mode='w', newline='') as file:
@@ -112,6 +280,12 @@ with open(output_file2, mode='w', newline='') as file:
     writer.writerows([["file_no", "latitude", "longitude", "region", "filename"]])
     writer.writerows(filenames_chosen)
 print(f"Data has been written to {output_file} and {output_file2}")
+
+# Writing to third csv file
+with open(output_file3, mode='w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerows(filenames_only)
+print(f"Data has been written to {output_file}, {output_file2}, and {output_file3}")
 
 region_list = [row[9] for row in locations]
 region_1 = len([x for x in region_list if x == 1])
@@ -132,7 +306,6 @@ print("Region 6 Count = "+str(region_6))
 print("Region 7 Count = "+str(region_7))
 print("Region 8 Count = "+str(region_8))
 print(region_list)
-
 #Checksum
 sum_region = region_1 + region_2 + region_3 + region_4 + region_5 + region_6 + region_7 + region_8
 print(sum_region)
