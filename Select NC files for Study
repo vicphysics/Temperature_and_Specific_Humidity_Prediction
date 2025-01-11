@@ -12,8 +12,8 @@ from scipy import stats
 #9875,9878,9882,9885,9900,9902,9931,9932,9936,9937
 #These correspond to positions:
 #2,5,11,13,15,45,50,90,92,93,98, and 120-143 (except 127)
-#We also remove the two Alaska files and file 7426 
-#(positions 2,1, and afterwards 57) lacking NSRDB coverage
+#We also remove the two Alaska files and files 7426 and 7906 
+#(positions 2,1, and afterwards 56 and 90) lacking NSRDB coverage
 
 # Get the current working directory
 current_directory = os.getcwd()
@@ -89,11 +89,11 @@ print(data.variables.keys()) # print the variables in the data
 print(locations)
 print(filenames_chosen)
 
-#We only have a total of 107 files chosen. Although 145 files get selected, we remove
+#We only have a total of 106 files chosen. Although 145 files get selected, we remove
 #file number 9901 because using Google Earth, we see this is near Toronto in Canada.
 #We also remove 34 files that have NaN for specific humidity and other exogenous variables.
-#We also remove 3 files for which we don’t find NSRDB coverage.
-#6 in Region 1, 8 in Region 2, 10 in Region 3, 30 in Region 4, 23 in Region 5, and 30 in Region 6
+#We also remove 4 files for which we don’t find NSRDB coverage.
+#6 in Region 1, 8 in Region 2, 9 in Region 3, 30 in Region 4, 23 in Region 5, and 30 in Region 6
 
 #Remove file 9901 in Canada
 filenames_chosen.pop(139)
@@ -260,7 +260,7 @@ print(filenames_only)\n",
 #File Numbers:
 #US Region 1: 7962,7987,7999,8000,8120,8133
 #US Region 2: 6994,7032,7239,7424,7463,7482,8184,8186
-#US Region 3: 7671,7704,7861,7870,7892,7906,7907,7938,7979,8083
+#US Region 3: 7671,7704,7861,7870,7892,7907,7938,7979,8083
 #US Region 4: 6501,6541,6668,6697,6844,6854,6870,6891,6895,6899,6901,6909,6929,6950,6963,6969,7131,7152,7155,
 #7156,7182,7193,7202,7347,7361,7414,7423,7432,7599,9858
 #US Region 5: 6744,7287,7329,7489,7528,7538,7549,7553,7555,7562,7571,7573,7585,7606,7622,7652,7786,7805,7816,7838,7862,7863,8034
