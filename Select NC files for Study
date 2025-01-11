@@ -246,10 +246,13 @@ filenames_chosen.pop(1)
 filenames_only.pop(1)
 locations.pop(1)
 
-#Need to remove file 7426 since we cannot locate NSRDB data within 0.02 degrees latitude/longitude
-filenames_chosen.pop(57)
-filenames_only.pop(57)
-locations.pop(57)
+#Need to remove files 7426 and 7906 since we cannot locate NSRDB data within 0.02 degrees latitude/longitude
+filenames_chosen.pop(56)
+filenames_only.pop(56)
+locations.pop(56)
+filenames_chosen.pop(90)
+filenames_only.pop(90)
+locations.pop(90)
 
 print(filenames_chosen)\n",
 print(filenames_only)\n",
