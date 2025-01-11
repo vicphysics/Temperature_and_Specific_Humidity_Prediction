@@ -6,13 +6,14 @@ import netCDF4 as nc
 from datetime import datetime, timedelta
 from scipy import stats
 
-# Delete filenames_only.csv, filenames_chosen.csv, and locations.csv files.
-# We will regenerate with these additional NaN files removed:
+# We will generate with these NaN files removed:
 #6498,6543,6706,6720,6767,7158,7266,7697,7707,7711,7859,9733,
 #9736,9737,9738,9757,9762,9798,9861,9863,9864,9865,9867,9871,
 #9875,9878,9882,9885,9900,9902,9931,9932,9936,9937
 #These correspond to positions:
 #2,5,11,13,15,45,50,90,92,93,98, and 120-143 (except 127)
+#We also remove the two Alaska files and file 7426 
+#(positions 2,1, and afterwards 57) lacking NSRDB coverage
 
 # Get the current working directory
 current_directory = os.getcwd()
@@ -24,7 +25,7 @@ print(current_directory)
 path = current_directory+"\\Data\\HADISDH_Humidity\\NC_Files\\"
 print(path)
 
-# Recreate empty lists to hold location data and chosen filenames
+# Create empty lists to hold location data and chosen filenames
 locations = []
 filenames_chosen = []
 filenames_only = []
