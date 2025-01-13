@@ -503,6 +503,14 @@ NSRDB Source File Names for .h5pyd Files:
 
 | NSRDB Source File Names |
 | :-: |
+/nrel/nsrdb/v3/nsrdb_1998.h5
+/nrel/nsrdb/v3/nsrdb_1999.h5
+/nrel/nsrdb/v3/nsrdb_2000.h5
+/nrel/nsrdb/v3/nsrdb_2001.h5
+/nrel/nsrdb/v3/nsrdb_2002.h5
+/nrel/nsrdb/v3/nsrdb_2003.h5
+/nrel/nsrdb/v3/nsrdb_2004.h5
+/nrel/nsrdb/v3/nsrdb_2005.h5
 /nrel/nsrdb/v3/nsrdb_2006.h5
 /nrel/nsrdb/v3/nsrdb_2007.h5
 /nrel/nsrdb/v3/nsrdb_2008.h5
