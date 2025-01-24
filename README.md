@@ -670,6 +670,7 @@ Filenames to download are given below along with their matching WMO IDs and File
 | 8248 | 26.079 | -80.162 | 747830-12849 | 26.079 | -80.162 | 0 |
 | 9858 | 36.118 | -97.091 | 999999-53927 | 36.135 | -97.108 | 2.43 |
 
+Using the HADISDH_NOAA.ipynb Jupyter Notebook Python code with the HADISDH_NSRDB_Merged_File_$(file_id).0 files and the HADISDH_NOAA_Weather_Station_Matches.csv file, we generate the Daily_Data_All.csv file (about 260 MB) containing all the combined clean daily data from the HADISDH, NSRDB, and NCEI/NOAA datasets.
 
 # Sunspot Index and Long-term Solar Observations (WDC-SILSO) - Solar Influences Data analysis Center (SIDC)
 Solar activity, measured by the average daily sunspot number, comes from the WDC-SILSO (Royal Observatory of Belgium, Brussels, 2024) dataset. We will use the dataset located on the https://www.sidc.be/SILSO/datafiles webpage and download by clicking the “CSV” button under the “Total Sunspot Number” dropdown and “Daily total sunspot number [1/1/1818 - now]” subheading. The dataset specifies the total number of sunspots observed per day, which will quantify the solar activity for that day. The filename containing this dataset is SN_d_tot_V2.0.csv, which is a semi-colon delimited CSV file in the format with the first six fields being year, month, day, normalized year (month and day are represented by year fraction), total sunspot number, and sunspot number error. The file covers the period from January 1, 1818, until November 30, 2024 with daily total sunspot numbers to represent daily solar activity. 
