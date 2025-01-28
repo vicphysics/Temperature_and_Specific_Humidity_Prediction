@@ -27,7 +27,7 @@ datetime_object = datetime.strptime(datetime_str, '%d/%m/%y %H:%M:%S')
 with open("filenames_only.csv", mode='r') as file: 
    csv_reader = csv.reader(file)
    for row in csv_reader:
-      filename = row 
+      filename = row[0]
       # Open the NetCDF file
       file = path+filename
       ds = xr.open_dataset(file)
