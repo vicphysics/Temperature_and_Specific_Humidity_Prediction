@@ -681,3 +681,7 @@ Data can be found in SN_d_tot_V2.0.csv. The Python code to clean the previous da
 https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/detrend.nino34.ascii.txt
 
 Data is contained within ONIdata.txt file.
+
+# Sample/Data Statistics:
+
+We use the Check_Data_Quality_Statistics.ipynb Jupyter Notebook Python code to create visualizations and analyze the statistics associated with our data.
