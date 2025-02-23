@@ -689,6 +689,7 @@ We use the Check_Data_Quality_Statistics.ipynb Jupyter Notebook Python code to c
 # Yearly HADISDH Data Files:
 
 file_no | latitude | longitude | elevation | region | start_date | end_date | missing | filename |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 6678 | 30.393 | -86.467 | 5.4 | 6 | 19970101 | 20241130 | 482 | hadisd.3.4.1.202411p_19310101-20241201_722069-53853_humidity.nc |
 6687 | 32.899 | -80.041 | 11.8 | 6 | 19450101 | 20241130 | 65 | hadisd.3.4.1.202411p_19310101-20241201_722080-13880_humidity.nc |
 6772 | 34.272 | -83.83 | 386.4 | 6 | 19970101 | 20241130 | 125 | hadisd.3.4.1.202411p_19310101-20241201_722185-53838_humidity.nc |
