@@ -752,7 +752,9 @@ file_id	| HADISDH_Latitude | HADISDH_Longitude | WMO_ID | NOAA_Latitude | NOAA_L
 7999 | 45.196 | -123.134 | 726881-99999 | 45.183 | -123.133 | 0.9 |
 8000 | 45.826 | -119.261 | 726883-99999 | 45.828 | -119.259 | 0.17|
 
-# Installing Optuna and PyTorch
+# Installing Tensorflow (which includes Keras), Optuna and PyTorch
+
+pip install tensorflow
 
 pip install optuna
 
