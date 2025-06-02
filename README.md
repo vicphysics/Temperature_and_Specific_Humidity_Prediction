@@ -761,3 +761,39 @@ pip install optuna
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 
 conda list -f PyTorch
+
+
+
+# Python Jupyter Notebooks Final Results:
+
+Filenames:  Final_(Binning)_Dataset_(Model Type)_Model_(Code for Response Variable)_S(n_seq).ipynb
+
+Binning: Monthly or Yearly based on the binning of the data
+Model Type: ARIMA/SARIMAX (only one file has everything: Version 10), LSTM, CNN-LSTM
+Code for Response Variable: CV=Temperature, SH=Specific Humidity
+n_seq: Number of future time steps to predict
+
+Breakdown of each Python Notebook:
+
+First Cell: 
+
+Data Pre-processing (must always be run first)
+
+Second Cell: 
+
+Ignore (Data Pre-processing check and insurance again double-clicking mouse and accidentally removing hyperparameter optimization results in third cell)
+For ARIMA/SARIMAX, contains code for Data Exploration/statistics and possibly ARIMA hyperparameter optimization)
+
+Third Cell: 
+
+Hyperparameter Optimization (Optuna/auto_arima)
+For ARIMA/SARIMAX, may contain SARIMAX best-fit/evaluation
+
+Cells 4-8: 
+LSTM/CNN-LSTM: Contains visualizations for the hyperparamter optimizations (must be run after the third cell and saved before closing notebook to get data).
+ARIMA/SARIMAX: Contains diagnostic plots and possibly SARIMAX best-fit model/auto=arima
+
+Cell 9:
+
+Model Evaluation/Metrics/Visualizations
+
