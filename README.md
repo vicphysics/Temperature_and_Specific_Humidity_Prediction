@@ -10,6 +10,39 @@ WDC-SILSO (solar activity data)
 
 ONI (exogenous variable)
 
+# Licenses:
+
+Ethical assurances included ensuring the study's data and code were in a GitHub repository. We also ensured that data quality and integrity were maintained. Modeling and data analysis were thoroughly documented to ensure transparency and reproducibility. We had also adhered to license requirements and ensured that intellectual property rights concerns had been addressed. The license for the Met Office Hadley Center Integrated Surface Database for Humidity (HadISDH) is at https://www.metoffice.gov.uk/hadobs/hadisdh/licence_ogl.html. The license for the WDC-SILSO sunspot data from the Royal Observatory of Belgium, Brussels (1/1/1818-11/30/2024) can be found at https://creativecommons.org/licenses/by-nc/4.0. Both the Oceanic Niño Index (ONI) and Global Summary of the Day (GSOD) come from the National Oceanic and Atmospheric Administration (NOAA), with the ONI dataset coming from the National Weather Service’s Climate Prediction Center. The National Weather Service permits the use and redistribution of the ONI data at https://www.noaa.gov/nodd/datasets#NWS, which includes the Global Summary of the Day (GSOD). NOAA permits the use and redistribution of data for datasets listed in their List of NOAA Open Data Dissemination Program Datasets found at https://www.weather.gov/policy. We also acquired our personal API key to access the NSRDB data. The NSRDB source code we use is redistributable according to the license at https://github.com/NREL/nsrdb/blob/main/LICENSE provided we include the following:
+
+BSD 3-Clause License
+
+Copyright (c) 2023, Alliance for Sustainable Energy LLC, All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
 # HADISDH (Humidity data):
 
 Powershell Code Instructions for Setting Up Virtual Environment (myenv):
